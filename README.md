@@ -1,4 +1,4 @@
 # Estudos-LoianeGroner-JS
-
-
-estudossss
+Livro - Estrutura de dados e algoritmos em JavaScript
+Autora - Loiane Groner
+Editora - NOVATEC
