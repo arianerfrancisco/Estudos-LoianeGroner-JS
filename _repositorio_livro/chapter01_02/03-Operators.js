@@ -30,9 +30,9 @@ num %= 3;
 
 console.log('New num value is ' + num);
 
-/* Assignment operators */
+/* Assignment operators */ 
 console.log('num == 1 : ' + (num == 1));
-console.log('num === 1 : ' + (num === 1));
+console.log('num === 1 : ' + (num === 1)); // igual em valor e tipo
 console.log('num != 1 : ' + (num != 1));
 console.log('num > 1 : ' + (num > 1));
 console.log('num < 1 : ' + (num < 1));
@@ -53,11 +53,11 @@ console.log('5 << 1:', 5 << 1); // same as 0101 << 1 (result 1010 / 10)
 console.log('5 >> 1:', 5 >> 1); // same as 0101 >> 1 (result 0010 / 2)
 
 /* typeOf */
-console.log('typeof num:', typeof num);
-console.log('typeof Packt:', typeof 'Packt');
-console.log('typeof true:', typeof true);
-console.log('typeof [1,2,3]:', typeof [1, 2, 3]);
-console.log('typeof {name:John}:', typeof { name: 'John' });
+console.log('typeof num:', typeof num); //numero
+console.log('typeof Packt:', typeof 'Packt'); //string
+console.log('typeof true:', typeof true);//booleano
+console.log('typeof [1,2,3]:', typeof [1, 2, 3]); //objeto
+console.log('typeof {name:John}:', typeof { name: 'John' });//objeto
 
 /* delete */
 var myObj = { name: 'John', age: 21 };

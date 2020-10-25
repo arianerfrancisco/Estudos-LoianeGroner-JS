@@ -5,6 +5,6 @@ function output(t) {
   document.write('<p>' + t + '</p>');
 }
 
-alert('Hello, World!');
-console.log('Hello, World!');
-output('Hello, World!');
+alert('Hello, World!'); // janela com mensagem
+console.log('Hello, World!'); // mensagem no console
+output('Hello, World!'); // mensagem no corpo do site

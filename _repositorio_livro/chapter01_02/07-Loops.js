@@ -22,3 +22,4 @@ do {
   console.log(i);
   i++;
 } while (i < 10);
+// a diferenca entre do while e while é que o while avalia a condição antes de executar o script
